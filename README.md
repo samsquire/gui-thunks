@@ -6,14 +6,13 @@ Upon each click, a type is raised which defines the new state before the computa
 
 From this operation, we can interact with a thunk of behaviour which is then queued.
 
-Here's an example of a menu that grows towards the right upon mouseover that allows queuing of a complicated pipeline of steps.
+Here's an example of a menu that grows towards the right upon mouseover that allows queuing of a complicated pipeline of steps. This menu would only be dismissed if clicked outside of the menu area.
 
 ![expandingmenu](guithunks.png)
 
 ## Embedded GUI Format
 
 For files that have downloads as part of the queue, there could be an embedded GUI format inside the archive. Even for multi gigabyte downloads, this embedded GUI is encountered early in the archive and is used to prepare interfaces for collecting data later in a pipeline.
-
 
 # Command line thunking
 
