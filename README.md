@@ -15,6 +15,16 @@ Here's an example of a mouseover GUI that allows queuing of a complicated pipeli
 For files that have downloads as part of the queue, there could be an embedded GUI format inside the archive. Even for multi gigabyte downloads, this embedded GUI is encountered early in the archive and is used to prepare interfaces for collecting data later in a pipeline.
 
 
+# Command line thunking
 
+
+When running command lines that take a long amount of time, such as Terraform, compiling and testing, can run them in the background.
+
+```
+thunk ./configure
+thunk make -j 4
+thunk retry # assuming there was an error
+thunk make install
+```
 
 
