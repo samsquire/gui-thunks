@@ -2,7 +2,7 @@
 
 how do you create GUIs that queue?
 
-Upon each click, a type is raised which defines the new state before the computation is finished. The type is a happy path of the resulting operation. From that operation, we can define what could happen next.
+Upon each click or mouseover, a type is raised which defines the new state before the computation is finished. The type is a happy path of the resulting operation. From that operation, we can define what could happen next.
 
 From this operation, we can interact with a thunk of behaviour which is then queued.
 
