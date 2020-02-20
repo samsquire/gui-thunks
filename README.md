@@ -19,5 +19,5 @@ For files that have downloads as part of the queue, there could be an embedded G
 You can right click on a file and the following queuable items appear:
 
 * Download file
- ** Rename file
- ** Move file
+  * Rename file
+  * Move file
