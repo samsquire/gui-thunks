@@ -16,7 +16,7 @@ For files that have downloads as part of the queue, there could be an embedded G
 
 # Examples
 
-You can right click on a file and the following queuable items appear:
+You can right click on a file in a browser and the following menu expands out: (one after eachother)
 
 * Download file
 * Rename file
